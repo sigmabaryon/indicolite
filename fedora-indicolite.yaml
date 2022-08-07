@@ -1,0 +1,31 @@
+include: upstream/fedora-silverblue.yaml
+
+ref: fedora-indicolite
+rojig:
+  name: fedora-indicolite
+  summary: "Fedora Silverblue Indicolite"
+  license: MIT
+
+repos:
+  - fedora-36
+  - fedora-36-updates
+
+packages:
+  # general
+  - akmods
+  - kmodtool
+  - mokutil
+  - openssl
+  - rpmdevtools
+  - make
+
+  # i3wm
+  - i3
+  - xdotool
+  - libconfig
+
+  # shell
+  - alacritty
+  - grc
+
+postprocess-script: post.sh
