@@ -1,4 +1,4 @@
 [submodule "upstream"]
 	path = upstream
-	url = https://pagure.io/workstation-ostree-config.git
+	url = https://pagure.io/workstation-ostree-config
 	branch = f36
