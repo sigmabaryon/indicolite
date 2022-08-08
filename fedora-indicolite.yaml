@@ -18,20 +18,30 @@ packages:
   - openssl
   - rpmdevtools
   - make
-  - lm_sensors-libs
+  - moreutils
+  - etckeeper
+  - lm_sensors
+  - gstreamer1-plugins-good
+  - libva-utils
+  - zathura
+  - gnome-tweak-tool
+  - virt-manager
 
   # i3wm
   - i3
   - xdotool
   - libconfig
+  - lm_sensors-libs
+  - polkit-gnome
   - gnome-flashback
+  - xfce4-clipman-plugin
 
   # shell
   - alacritty
+  - tmux
   - fish
   - ripgrep
   - fd-find
   - exa
   - btop
-
-  - zathura
+  - grc
