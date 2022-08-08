@@ -21,6 +21,8 @@ packages:
   - moreutils
   - etckeeper
   - lm_sensors
+  - vdpauinfo
+  - libva-vdpau-driver
   - gstreamer1-plugins-good
   - libva-utils
   - zathura
@@ -32,12 +34,14 @@ packages:
   - xdotool
   - libconfig
   - lm_sensors-libs
+  - feh
   - polkit-gnome
   - gnome-flashback
   - xfce4-clipman-plugin
 
   # shell
   - alacritty
+  - vim
   - tmux
   - fish
   - ripgrep

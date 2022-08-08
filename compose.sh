@@ -10,3 +10,5 @@ if [ ! -d $REPO/objects ]; then
 fi
 
 rpm-ostree compose tree --unified-core --cachedir=$CACHE --repo=$REPO --ex-lockfile=fedora-indicolite-lock.overrides.yaml  fedora-indicolite.yaml
+
+ostree --repo=/var/tmp/repo summary -u
