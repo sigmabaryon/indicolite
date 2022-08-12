@@ -18,6 +18,8 @@ packages:
   - openssl
   - rpmdevtools
   - make
+  - gcc-c++
+  - util-linux-user
   - moreutils
   - etckeeper
   - lm_sensors
@@ -28,10 +30,12 @@ packages:
   - zathura
   - gnome-tweak-tool
   - virt-manager
+  - wireguard-tools
 
   # i3wm
   - i3
   - xdotool
+  - xclip
   - libconfig
   - lm_sensors-libs
   - feh
@@ -44,8 +48,6 @@ packages:
   - vim
   - tmux
   - fish
-  - ripgrep
   - fd-find
-  - exa
   - btop
   - grc
