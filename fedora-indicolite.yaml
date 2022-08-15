@@ -31,6 +31,9 @@ packages:
   - gnome-tweak-tool
   - virt-manager
   - wireguard-tools
+  - mesa-libGLU.i686
+  - mesa-libGLU.x86_64
+  - libXcursor.i686
 
   # i3wm
   - i3
