@@ -11,31 +11,39 @@ repos:
   - fedora-36-updates
 
 packages:
-  # general
+  # secure boot, signing nvidia drivers
   - akmods
   - kmodtool
   - mokutil
   - openssl
   - rpmdevtools
+
+  # general build
   - make
   - gcc-c++
+
+  # general utils
   - util-linux-user
   - moreutils
   - etckeeper
   - lm_sensors
+  - virt-manager
+  - wireguard-tools
+
+  # media
   - vdpauinfo
   - libva-vdpau-driver
   - gstreamer1-plugins-good
   - libva-utils
-  - zathura
-  - gnome-tweak-tool
-  - virt-manager
-  - wireguard-tools
+
+  # opengl
   - mesa-libGLU.i686
   - mesa-libGLU.x86_64
+
+  # only for shadowrun returns
   - libXcursor.i686
 
-  # i3wm
+  # i3wm desktop
   - i3
   - xdotool
   - xclip
@@ -46,11 +54,10 @@ packages:
   - gnome-flashback
   - xfce4-clipman-plugin
 
-  # shell
+  # basic shell
   - alacritty
   - vim
   - tmux
   - fish
   - fd-find
   - btop
-  - grc
