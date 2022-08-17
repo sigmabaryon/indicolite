@@ -24,7 +24,6 @@ packages:
 
   # general utils
   - util-linux-user
-  - moreutils
   - etckeeper
   - lm_sensors
   - virt-manager
